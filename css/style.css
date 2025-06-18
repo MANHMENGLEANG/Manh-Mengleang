@@ -12,19 +12,26 @@ body {
 }
 
 .navbar {
-  display: flex;
-  justify-content: right;
-  background-color: #ffffff;
+  background-color: #00093d;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-.navbar a {
-  color: #00093d;
-  padding: 8px 16px;
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
   text-decoration: none;
-}
-
-a:hover {
-  color: rgb(17, 0, 255);
+  font-weight: bold;
 }
 
 .icon {
