@@ -1,73 +1,103 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+* {
+  font-family: "DM Serif Text", serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
 }
-.container {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 .navbar {
-  background-color: #ffffff;
-  color: #00093d;
-  padding: 10px 0;
-  width: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar nav ul {
-  list-style: none;
-  padding: 0;
+.navbar .icon {
+  float: left;
+  margin-left: 25px;
+  font-size: 25px;
+  transform: translateY(-15%);
+}
+
+.navbar .nav_links {
+  float: center;
+  padding: 0px;
   margin: 0;
-  display: flex;
-  justify-content: center;
+  list-style: none;
+  text-align: center;
 }
 
-.navbar nav ul li {
-  margin: 0 15px;
+.navbar .nav_links li {
+  display: inline;
+  margin-right: 25px;
 }
 
-.navbar nav ul li a {
-  color: #00093d;
+.navbar .nav_links li a {
   text-decoration: none;
-  font-weight: bold;
+  color: #333;
+  font-size: 17px;
 }
 
-.navbar nav ul li a:hover {
-  color: blue;
+.navbar .nav_links #contact {
+  float: right;
+  margin-right: 25px;
+}
+
+.navbar .nav_links li a:hover {
+  color: #007bff;
   text-decoration: underline;
 }
 
-.icon {
-  padding: 40px;
-  transform: translatey(-70%);
+.container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-  background-image: url();
-  color: #00093d;
+.introduction {
   padding: 20px;
   text-align: left;
-  justify-content: center;
-  font-size: 25px;
+  border-radius: 8px;
 }
 
-.about-me {
-  color: #00093d;
-  padding: 20px;
+.introduction h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0 0 0 350px;
+  margin-right: 55%;
+  margin-top: 6%;
   text-align: center;
-  justify-content: center;
 }
 
-.skills {
-  background-color: #ffffff;
-  color: #00093d;
-  padding: 20px;
+.introduction p {
+  font-size: 16px;
+  line-height: 1.6;
   text-align: center;
-  justify-content: center;
-  width: 100%;
+  margin-right: 35%;
+}
+
+.introduction .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transform: translate(325%);
+}
+
+.introduction .btn:hover {
+  background-color: #0056b3;
+}
+
+.introduction img {
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 70%;
+  margin-top: -22%;
+  box-shadow: 10px 10px 5px lightblue;
 }
